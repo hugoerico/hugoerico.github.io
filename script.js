@@ -1,6 +1,6 @@
 function mudar() {
 
-    document.getElementById("foto").src = "img/h.png"
+    document.getElementById("foto").src = "img/h.jpg"
     document.getElementById("foto2").src = "img/b.svg"
 }
 
