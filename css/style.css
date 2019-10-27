@@ -1,0 +1,15 @@
+#foto {
+    width: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-style: solid;
+    border-width: 0.5em;
+}
+
+#foto2 {
+    width: 15em;
+}
+
+body {
+    background-color: #6699ff;
+}
