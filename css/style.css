@@ -1,15 +1,168 @@
-#foto {
-    width: 10em;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    border-style: solid;
-    border-width: 0.5em;
-}
-
-#foto2 {
-    width: 15em;
+html {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #6699ff;
+    font-family: 'playfair display,serif';
+    background-color: white;
+}
+
+#chek {
+    display: none;
+}
+
+#img_menu {
+    width: 3em;
+    height: 3em;
+}
+
+.img_footer {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+}
+
+#img_menu1 {
+    width: 3em;
+    height: 3em;
+    display: none;
+}
+
+#icone_menu {
+    cursor: pointer;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.barra {
+    width: 100%;
+    position: absolute;
+    top: 7em;
+    text-align: center;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav {
+    background-color: rgb(207, 207, 246);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+header {
+    height: 4em;
+    width: 100%;
+    background-color: rgb(207, 207, 246);
+    position: relative;
+}
+
+#img_perfil {
+    width: 8em;
+    height: 8em;
+    border-color: black;
+    border-width: 0.5em;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+#primeiro {
+    text-align: center;
+    padding: 2.5em;
+}
+
+#sobre {
+    font-size: 1.5em;
+    text-align: justify;
+    border-color: rgb(207, 207, 246);
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 0.625em;
+}
+
+#info {
+    font-size: 1.2em;
+    text-align: justify;
+    border-color: rgb(207, 207, 246);
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 0.625em;
+}
+
+#proficional {
+    font-size: 1.2em;
+    text-align: justify;
+    border-color: rgb(207, 207, 246);
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 0.625em;
+}
+
+#extras {
+    font-size: 1.2em;
+    border-color: rgb(207, 207, 246);
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 0.625em;
+}
+
+article {
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+#footer {
+    height: 4em;
+    width: 100%;
+    background-color: rgb(207, 207, 246);
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#img_html {
+    width: 12em;
+    height: 7em;
+}
+
+#img_python {
+    width: 6em;
+    height: 6em;
+}
+
+#img_excel {
+    width: 7em;
+    height: 7em;
+}
+
+#skils {
+    border-color: rgb(207, 207, 246);
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 0.625em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#butao {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5em;
 }

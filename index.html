@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="script.js"></script>
@@ -10,15 +12,138 @@
 </head>
 
 <body>
-    <section class="text-center">
-        <img id="foto" class="rounded-circle" src="img/hu.jpg" onmouseover="mudar()" onmouseout="mudar2()">
+    <header>
+        <input type="checkbox" id="chek" onclick="aparecer()">
+        <label for="chek" id="icone_menu">
+            <img src="img/menu.ico" alt="" id="img_menu">
+            <img src="img/cancel.ico" alt="" id="img_menu1">
+        </label>
+        <div class="center">
+            <h1>Hugo Erico.</h1>
+
+        </div>
+
+    </header>
+
+    <nav id="nav">
+        <div class="barra">
+            <ul>
+                <li><a href=""> Sobre</a></li>
+                <li><a href="">Informações Acadêmicas</a></li>
+                <li><a href="">Historico Proficional</a></li>
+                <li><a href="">Extras</a></li>
+                <li><a href="">Skills e Exemplos</a></li>
+                <li><a href="">Baixar CV</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <section id="primeiro">
+
+        <img src="img/hu.jpg" alt="" id="img_perfil">
 
     </section>
+    <article id="article">
+        <section class="center">
+            <h2>Sobre</h2>
+            <div class="row">
+                <div id="sobre" class="col-md-12">
+                    <p>
+                        Um apaixonado por tecnologia e tudo que envolve esse incrível mundo. Iniciando a jornada como aprendiz administrativo e logo em seguida como Operador de site, a luz brilhou quando iniciei um curso na área tecnológica e desde esse dia venho me aprofundando
+                        nesse tema, buscando conhecimento e cursos para iniciar nesse mundo de programação
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="center">
+            <h2>Informações Acadêmicas</h2>
+            <div class="row">
+                <div id="info" class="col-md-6">
 
-    <section class="text-center">
+                    <p>E.E. Prof.ª Maria Luiza De Andrade Martins Roque</p>
+                    <p>Curso: Ensino Medio</p>
+                    <p>Semestre: 03 Ano (Concluido)</p>
+                    <p>Cideda: São Paulo</p>
+                    <p>Estado: SP </p>
+                </div>
+                <div id="info" class="col-md-6">
 
-        <img id="foto2" src="" onmouseover="mudar()" onmouseout="mudar2()">
-    </section>
+                    <p>Escola Tecnica: Etec Irmã Agostina</p>
+                    <p>Curso: Técnico em Informatica</p>
+                    <p>Ano/Semestre: 03 Semestre (Concluido)</p>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="center">
+            <h2>Historico Proficional</h2>
+            <div class="row">
+                <div id="proficional" class="col-md-6">
+
+                    <p> Simpress Operador de Site Jr - De Setembro/2017 A Fevereiro/2018</p>
+                    <p>Administarção do Estoque, Assistência básica, Auxiliar Operacional e Atendimento ao Cliente.</p>
+                </div>
+                <div id="proficional" class="col-md-6">
+
+                    <p> Socicam Aprendiz Administrativo - De Abril/2016 A Março/2017 </p>
+                    <p> Administração do Terminal Urbano, Auxiliar Operecional e Atendimento ao Cliente.</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="center">
+            <h2>Extras</h2>
+            <div id="extras" class="row">
+                <div class="col-md-12">
+                    <a href="https://estacaohack.mastertech.com.br/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_eh.png" alt="">
+                    </a>
+                    <p> 15 Horas</p>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="center">
+            <h2>Skills e Exemplos</h2>
+            <div id="skils" class="row">
+                <div class="col-md-12">
+                    <img src="img/html.png" alt="" id="img_html">
+                    <img src="img/python.png" alt="" id="img_python">
+                    <img src="img/excel.png" alt="" id="img_excel">
+
+                </div>
+                <div class="col-md-12" id="butao">
+
+                    <a href="#" rel="noopener noreferrer">
+                        <button class="btn btn-outline-primary">Web</button></a>
+
+
+                    <a href="https://repl.it/@hugoerico/SistemaParaHolerite" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-primary">Python</button></a>
+
+                    <a href="https://1drv.ms/x/s!AvsN0OY6WJM4nA3FZswWtxCoPAL6" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-primary">Excel</button></a>
+
+                </div>
+        </section>
+
+
+
+    </article>
+    <footer id="footer">
+        <a href="https://www.linkedin.com/in/hugo-erico-s-20935318b/" target="_blank" rel="noopener noreferrer">
+            <img src="img/linkedin.ico" alt="" class="img_footer">
+        </a>
+        <a href="https://github.com/hugoerico" target="_blank" rel="noopener noreferrer">
+            <img src="img/github.ico" alt="" class="img_footer">
+        </a>
+
+
+
+
+    </footer>
+
+
 </body>
 
 </html>
