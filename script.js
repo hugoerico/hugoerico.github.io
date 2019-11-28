@@ -9,3 +9,27 @@ function aparecer() {
 
     if (document.getElementById("img_menu1").style.display == "block") { document.getElementById("img_menu1").style.display = "none"; } else { document.getElementById("img_menu1").style.display = "block"; }
 }
+
+function aparecer1() {
+    if (document.getElementById("nav").style.display == "block") { document.getElementById("nav").style.display = "none"; } else { document.getElementById("nav").style.display = "block"; }
+
+    if (document.getElementById("article").style.display == "none") { document.getElementById("article").style.display = "block"; } else { document.getElementById("article").style.display = "none"; }
+
+    if (document.getElementById("img_menu").style.display == "none") { document.getElementById("img_menu").style.display = "block"; } else { document.getElementById("img_menu").style.display = "none"; }
+
+    if (document.getElementById("img_menu1").style.display == "block") { document.getElementById("img_menu1").style.display = "none"; } else { document.getElementById("img_menu1").style.display = "block"; }
+
+    if (document.getElementById("footer").style.position == "fixed") { document.getElementById("footer").style.position = "relative"; } else { document.getElementById("footer").style.position = "fixed"; }
+
+}
+
+function aparecer2() {
+    document.getElementById("pop").style.display = "block"
+
+
+}
+
+function aparecer3() {
+    document.getElementById("pop").style.display = "none";
+
+}
