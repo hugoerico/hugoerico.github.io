@@ -191,3 +191,22 @@ a:visited {
     font-style: italic;
     font-weight: bold;
 }
+
+#digi {
+    width: 14em;
+    height: 6em;
+    margin-top: 0.8em;
+}
+
+#tale {
+    width: 12em;
+    height: 7em;
+    margin-top: 1em;
+    border-radius: 0.8em
+}
+
+#hack {
+    width: 12em;
+    height: 5em;
+    margin-top: 1.5em;
+}
