@@ -23,13 +23,6 @@ function aparecer1() {
 
 }
 
-function aparecer2() {
-    document.getElementById("pop").style.display = "block"
-
-
-}
-
-function aparecer3() {
-    document.getElementById("pop").style.display = "none";
-
+function funcao1() {
+    alert("Esse é meu exemplo de uma página Web");
 }

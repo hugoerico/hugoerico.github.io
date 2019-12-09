@@ -89,7 +89,7 @@ header {
 
 #sobre {
     font-size: 1.5em;
-    text-align: justify;
+    text-align: initial;
     border-color: rgb(207, 207, 246);
     border-width: 0.3em;
     border-style: solid;
@@ -98,7 +98,7 @@ header {
 
 #sessao {
     font-size: 1.2em;
-    text-align: justify;
+    text-align: initial;
     border-color: rgb(207, 207, 246);
     border-width: 0.3em;
     border-style: solid;
@@ -168,28 +168,6 @@ a:link {
 
 a:visited {
     color: white;
-}
-
-#pop {
-    display: none;
-    position: absolute;
-    top: 50%;
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
-    height: 28%;
-    border: 1px solid #d0d0d0;
-    background-color: rgb(192, 190, 190);
-    border-radius: 0.625em;
-    border: rgb(184, 184, 248) 0.5em solid;
-    text-align: center;
-}
-
-#letra {
-    font-size: 1.2em;
-    padding: 0.5em;
-    font-style: italic;
-    font-weight: bold;
 }
 
 #digi {
