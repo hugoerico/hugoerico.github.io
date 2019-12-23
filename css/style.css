@@ -13,19 +13,19 @@ body {
 }
 
 #img_menu {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
 }
 
 .img_footer {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     text-align: center;
 }
 
 #img_menu1 {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     display: none;
 }
 
@@ -67,17 +67,17 @@ h2 {
 }
 
 header {
-    height: 4em;
+    height: 3em;
     width: 100%;
     background-color: rgb(207, 207, 246);
     position: relative;
 }
 
 #img_perfil {
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     border-color: black;
-    border-width: 0.5em;
+    border-width: 0.3em;
     border-radius: 50%;
     border-style: solid;
 }
@@ -119,13 +119,13 @@ article {
 }
 
 #footer {
-    height: 4em;
+    height: 3em;
     width: 100%;
     background-color: rgb(207, 207, 246);
     bottom: 0;
     position: relative;
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 0.2em;
 }
 
 #img_html {
